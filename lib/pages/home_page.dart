@@ -7,7 +7,9 @@ class Homepage extends StatelessWidget {
       appBar: AppBar(
         title: Text('Application'),
       ),
-      body: Container(),
+      body: Container(
+        child: Text('App made with Flutter'),
+      ),
     );
   }
 }
