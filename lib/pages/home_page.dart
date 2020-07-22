@@ -8,7 +8,8 @@ class Homepage extends StatelessWidget {
         title: Text('Application'),
       ),
       body: Container(
-        child: Text('App made with Flutter'),
+        color: Colors.redAccent,
+        
       ),
     );
   }
